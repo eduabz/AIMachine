@@ -143,7 +143,7 @@ def main():
     X, y = preparar_datos(datos)
     salida = X.copy()
     salida["traffic_volume"] = y
-    ruta = carpeta / "trafico_limpio.csv"
+    ruta = Path(__file__).resolve().parent / "trafico_limpio.csv"
     salida.to_csv(ruta, index_label="date_time")
     print("Dataset preparado, sin normalizar:", ruta)
     print("Filas:", len(salida), "| Columnas incluyendo fecha:", len(salida.columns) + 1)

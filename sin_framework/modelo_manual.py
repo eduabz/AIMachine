@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-RUTA_DATOS = Path(__file__).resolve().parent.parent / "trafico_limpio.csv"
+RUTA_DATOS = Path(__file__).resolve().parent / "trafico_limpio.csv"
 
 def cargar_dataset_limpio(ruta):
     datos = pd.read_csv(ruta, float_precision="round_trip")

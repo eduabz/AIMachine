@@ -110,7 +110,7 @@ def comparar_variables(
 
 
 def main():
-    ruta = Path(__file__).resolve().parent.parent / "trafico_limpio.csv"
+    ruta = Path(__file__).resolve().parent / "trafico_limpio.csv"
     X, y = cargar_dataset_limpio(ruta)
     xt, xv, xp, yt, yv, yp = separar_datos(X, y)
     nt, nv, _ = normalizar_datos(xt, xv, xp)
