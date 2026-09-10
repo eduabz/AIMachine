@@ -138,7 +138,7 @@ def preparar_datos(datos):
 
 
 def main():
-    carpeta = Path(__file__).resolve().parent
+    carpeta = Path(__file__).resolve().parent.parent
     datos = cargar_datos(carpeta / "Metro_Interstate_Traffic_Volume.csv")
     X, y = preparar_datos(datos)
     salida = X.copy()
