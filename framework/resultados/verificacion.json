@@ -1,0 +1,53 @@
+{
+  "registros": 11055,
+  "grupos": 5785,
+  "contradictorios": 64,
+  "tamanos": [
+    7650,
+    1740,
+    1665
+  ],
+  "grupos_compartidos": 0,
+  "matriz_val": [
+    [
+      917,
+      65
+    ],
+    [
+      42,
+      716
+    ]
+  ],
+  "matriz_test": [
+    [
+      827,
+      72
+    ],
+    [
+      56,
+      710
+    ]
+  ],
+  "parametros": {
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "versiones": {
+    "python": "3.13.15",
+    "sklearn": "1.9.0",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  }
+}
